@@ -1,0 +1,179 @@
+body {
+	background: #e7e6e1;
+	overflow-x: hidden;
+}
+
+* {
+	margin: 0px;
+}
+/*=========content=======*/
+h1 {
+	margin-left: 530px;
+	font-family: New Century Schoolbook, TeX Gyre Schola, serif;
+	font-size: 70px;
+	text-shadow: 3px 1px 1px white;
+	line-height: 0px;
+}
+
+table {
+	margin: 0px auto;
+	font-family: Bradley Hand, cursive;
+	border-collapse: collapse;
+	text-align: center;
+	font-size: 20px;
+	color:#0f0f0f;
+	background:#fdb827;
+	margin-top: 10px;
+
+}
+
+.bottom {
+	border-bottom: none;
+}
+td,
+th {
+	width: 300px;
+	border: 1px solid grey;
+	height: 50px;
+}
+
+tr:hover {
+	color: #fdb827;
+	background: #0f0f0f;
+}
+
+div h1 {
+	margin-right: 700px;
+	padding-top: 50px;
+	font-family: Courier New, monospace;
+	font-size: 70px;
+	height: 30px;
+}
+
+div {
+	height: 400px;
+	width: 100%;
+	background: url(../images/bg_en.jpg);
+	padding: 0px auto;
+	text-align: center;
+	padding-top: 50px;
+}
+
+cite {
+	margin-left: 200px;
+	padding-top: 00px;
+	font-family: Times, Times New Roman, serif;
+	font-size: 30px;
+}
+/*=========content=======*/
+
+/*========начало меню========*/
+nav {
+	background: orange;
+	height: 40px;
+}
+
+nav .nov1 {
+	float: left;
+	width: 50px;
+	height: 33px;
+	cursor: pointer;
+}
+
+nav .nov1 h5 {
+	position: absolute;
+	font-family: Times, Times New Roman, serif;
+	font-size: 18px;
+	height: 33px;
+	color:black;
+	width:150px;
+	text-align: center;
+	padding-top: 7px;
+}
+
+nav .nov1 h5:hover {
+	background: #BE7C00;
+}
+
+#book, #pod, #video, #sovet, #slovar {
+	float: left;
+	height: 40px;
+	font-family: Times, Times New Roman, serif;
+	font-size: 20px;
+	height: 30px;
+	width:150px;
+	text-align: center;
+	padding-top: 10px;
+	text-decoration: none;
+	color:black;
+}
+
+#slovar:hover,#book:hover,#pod:hover,#video:hover,#sovet:hover {
+	background: #BE7C00;
+}
+#slovar {
+	margin-left: 100px;
+}
+/*=========конец меню=======*/
+
+/*=========footer=======*/
+.footer {
+	width: 1350px;
+	height: 120px;
+	background: #F3F3F3;
+	font-family: Courier New, monospace;
+	border-top: 1px solid grey;
+	list-style-type:none;
+	padding-top: 10px;
+	margin-top: 50px;
+}
+
+ul {
+	list-style-type:none;
+	text-align: justify;
+	position: relative;
+	font-size: 17px;
+	line-height: 20px;
+	font-family: serif;
+}
+
+.FAQ {
+	position: absolute;
+	margin-top:0px;
+}
+
+.or {
+	position: absolute;
+	margin-top:0px;
+	margin-left: 200px;
+}
+
+.classic {
+	position: absolute;
+	margin-top:0px;
+	margin-left: 450px;
+
+}
+
+.improve {
+	position: absolute;
+	margin-left: 600px;
+}
+
+.another {
+	position: absolute;
+	margin-left: 800px;
+}
+
+.footer h4 {
+	margin-top:90px;
+	margin-left: 30px;
+	position: absolute;
+	font-family: serif;
+}
+
+.footer a {
+	color:grey;
+}
+
+/*=========the end=======*/

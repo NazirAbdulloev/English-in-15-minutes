@@ -1,0 +1,155 @@
+body {
+	background:#E7E6E1;
+	overflow-x: hidden;
+}
+h1 {
+	margin-left:50px;
+	font-size:50px;
+	font-family:Courier New, monospace;
+	text-shadow:1px 2px 3px  black;
+	padding-top:100px;
+	text-align:center;
+	
+}
+
+h2 {
+	font-size:30px;
+	font-family:Courier New, monospace;
+	text-shadow:1px 2px 3px  black;
+	line-height:70px;
+	margin-left:20px;
+	text-align: center;
+	color:#EB5E0B;
+}
+
+p{
+	height:200px;
+	width:700px;
+	border:1px solid ;
+	font-size:20px;
+	font-family:Courier New, monospace;
+	text-shadow:1px 2px 3px  black;
+	background:#98DED9;
+	margin:0px auto;
+	text-align: center;
+}
+
+div {
+	height:400px;
+	width:100%;
+	background:url(../images/bg_en.jpg);
+}
+
+* {
+	margin:0px;
+}
+
+nav {
+	background: orange;
+	height: 40px;
+}
+
+nav .nov1 {
+	float: left;
+	width: 50px;
+	height: 33px;
+	cursor: pointer;
+}
+
+nav .nov1 h5 {
+	position: absolute;
+	font-family: Times, Times New Roman, serif;
+	font-size: 18px;
+	height: 33px;
+	color:black;
+	width:150px;
+	text-align: center;
+	padding-top: 7px;
+}
+
+nav .nov1 h5:hover {
+	background: #BE7C00;
+}
+
+#book, #pod, #video, #sovet, #slovar {
+	float: left;
+	height: 40px;
+	font-family: Times, Times New Roman, serif;
+	font-size: 20px;
+	height: 30px;
+	width:150px;
+	text-align: center;
+	padding-top: 10px;
+	text-decoration: none;
+	color:black;
+}
+
+#slovar:hover,#book:hover,#pod:hover,#video:hover,#sovet:hover {
+	background: #BE7C00;
+}
+#slovar {
+	margin-left: 100px;
+}
+/*=========конец меню=======*/
+
+/*=========footer=======*/
+.footer {
+	width: 1350px;
+	height: 120px;
+	background: #F3F3F3;
+	font-family: Courier New, monospace;
+	border-top: 1px solid grey;
+	list-style-type:none;
+	padding-top: 10px;
+	margin-top: 50px;
+}
+
+ul {
+	list-style-type:none;
+	text-align: justify;
+	position: relative;
+	font-size: 17px;
+	line-height: 20px;
+	font-family: serif;
+}
+
+.FAQ {
+	position: absolute;
+	margin-top:0px;
+}
+
+.or {
+	position: absolute;
+	margin-top:0px;
+	margin-left: 200px;
+}
+
+.classic {
+	position: absolute;
+	margin-top:0px;
+	margin-left: 450px;
+
+}
+
+.improve {
+	position: absolute;
+	margin-left: 600px;
+}
+
+.another {
+	position: absolute;
+	margin-left: 800px;
+}
+
+.footer h4 {
+	margin-top:90px;
+	margin-left: 30px;
+	position: absolute;
+	font-family: serif;
+}
+
+.footer a {
+	color:grey;
+}
+
+/*=========the end=======*/

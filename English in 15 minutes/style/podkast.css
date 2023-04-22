@@ -1,0 +1,263 @@
+*{
+	margin:0px;
+	padding: 0px;
+}
+
+.eng {
+	height: 400px;
+	width: 100%;
+	background: url(../images/bg_en.jpg);
+	padding: 0px auto;
+	
+}
+
+.eng h1 {
+	margin-right :500px;
+	margin-top: 50px;
+	font-family: Courier New, monospace;
+	font-size: 70px;
+	height: 30px;
+	float: right;
+}
+
+.eng cite {
+	float: left;
+	position: absolute;
+	top:200px;
+	font-family: Times, Times New Roman, serif;
+	font-size: 30px;
+	text-align: center;
+	left:50px;
+	right: 50px;
+}
+/*=========pictures========*/
+img {
+	width: 300px;
+	height: 500px;
+	margin: 50px 0px 0px 100px;
+	float: left;
+}
+
+.podkast1 {
+	height: 600px;
+	width: 100%;
+	background: #F7F7F7;
+}
+
+.podkast2 {
+	height: 600px;
+	width: 100%;
+	background: #EDEDED;
+}
+
+.podkast3 {
+	height: 600px;
+	width: 100%;
+	background: #F7F7F7;
+}
+
+.podkast4 {
+	height: 600px;
+	width: 100%;
+	background: #EDEDED;
+}
+
+.podkast5 {
+	height: 600px;
+	width: 100%;
+	background: #F7F7F7;
+}
+/*=========pictures end========*/
+
+/*==========text========*/
+	div h2 {
+	font-size: 50px;
+	padding-top: 50px;
+	padding-left: 500px;
+	color: #272727;
+}
+.Avtor {
+	color: #F07E29;
+	line-height: 70px;
+	font-size: 25px;
+	padding-left: 500px;
+}
+
+.text {
+	padding-left: 500px;
+	font-size: 20px;
+	line-height: 50px;
+}
+/*==========text end========*/
+
+/*==========audio===========*/
+.audio {
+	margin-left: 100px;
+	width:500px;
+	outline: none;
+	margin-top: 50px;
+}
+
+/*==========audio end===========*/
+
+/*========начало меню======*/
+nav {
+	background: orange;
+	height: 40px;
+}
+
+nav .nov1 {
+	float: left;
+	width: 50px;
+	height: 33px;
+	cursor: pointer;
+}
+
+nav .nov1 h5 {
+	position: absolute;
+	font-family: Times, Times New Roman, serif;
+	font-size: 18px;
+	height: 33px;
+	color:black;
+	width:150px;
+	text-align: center;
+	padding-top: 7px;
+}
+
+nav .nov1 h5:hover {
+	background: #BE7C00;
+}
+
+#book, #pod, #video, #sovet, #slovar {
+	float: left;
+	height: 40px;
+	font-family: Times, Times New Roman, serif;
+	font-size: 20px;
+	height: 30px;
+	width:150px;
+	text-align: center;
+	padding-top: 10px;
+	text-decoration: none;
+	color:black;
+}
+
+#slovar:hover,#book:hover,#pod:hover,#video:hover,#sovet:hover {
+	background: #BE7C00;
+}
+#slovar {
+	margin-left: 100px;
+}
+/*=========конец меню=======*/
+
+/*==========footer========*/
+	nav {
+	background: orange;
+	height: 40px;
+}
+
+nav .nov1 {
+	float: left;
+	width: 50px;
+	height: 33px;
+	cursor: pointer;
+}
+
+nav .nov1 h5 {
+	position: absolute;
+	font-family: Times, Times New Roman, serif;
+	font-size: 18px;
+	height: 33px;
+	color:black;
+	width:150px;
+	text-align: center;
+	padding-top: 7px;
+}
+
+nav .nov1 h5:hover {
+	background: #BE7C00;
+}
+
+#book, #pod, #video, #sovet, #slovar {
+	float: left;
+	height: 40px;
+	font-family: Times, Times New Roman, serif;
+	font-size: 20px;
+	height: 30px;
+	width:150px;
+	text-align: center;
+	padding-top: 10px;
+	text-decoration: none;
+	color:black;
+}
+
+#slovar:hover,#book:hover,#pod:hover,#video:hover,#sovet:hover {
+	background: #BE7C00;
+}
+#slovar {
+	margin-left: 100px;
+}
+/*=========конец меню=======*/
+
+/*=========footer=======*/
+.footer {
+	width: 1350px;
+	height: 120px;
+	background: #EDEDED;
+	font-family: Courier New, monospace;
+	border-top: 1px solid grey;
+	list-style-type:none;
+	padding-top: 10px;
+	margin-top: 0px;
+}
+
+ul {
+	list-style-type:none;
+	text-align: justify;
+	position: relative;
+	font-size: 17px;
+	line-height: 20px;
+	font-family: serif;
+}
+
+.FAQ {
+	position: absolute;
+	margin-top:0px;
+	margin-left: 20px;
+}
+
+.or {
+	position: absolute;
+	margin-top:0px;
+	margin-left: 200px;
+}
+
+.classic {
+	position: absolute;
+	margin-top:0px;
+	margin-left: 450px;
+
+}
+
+.improve {
+	position: absolute;
+	margin-left: 600px;
+}
+
+.another {
+	position: absolute;
+	margin-left: 800px;
+}
+
+.footer h4 {
+	margin-top:90px;
+	margin-left: 20px;
+	position: absolute;
+	font-family: serif;
+}
+
+.footer a {
+	color:grey;
+}
+
+/*=========the end=======*/
+/*==========foter end=====*/
